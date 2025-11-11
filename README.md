@@ -25,3 +25,5 @@ dotnet test tests/Project.Tests/Project.Tests.csproj --logger "trx;LogFileName=T
 2. Asegúrate de que el archivo `.github/workflows/dotnet-ci.yml` esté en la raíz del repositorio.
 3. Crea una rama `feature/mi-cambio` y abre un Pull Request hacia `develop` (o `qa`/`master`). El workflow se ejecutará automáticamente.
 4. Los artefactos de prueba (TRX) quedarán disponibles en la pestaña **Actions > Run > Artifacts**.
+
+Primera ejecución de CI
